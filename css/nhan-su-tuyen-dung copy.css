@@ -145,6 +145,7 @@ body {
     padding-top: 92px;
 }
 .header .container .row .header-content-right{
+    height: 100%;
     padding-top: 48px;
 }
 
@@ -404,7 +405,7 @@ body {
   }
 
   @media only screen and (max-device-width: 767px){
-    .header{
+    /* .header{
         height: 700px;
         position: relative;
     }
@@ -550,7 +551,7 @@ body {
     .paging ul li .active{
         color: #000;
         text-decoration: underline;    
-    }
+    } */
     
   }
   @media only screen and (max-device-width: 590px){
@@ -648,9 +649,6 @@ body {
     body{
         background: #FCFCFC;
     }
-    .header{
-        z-index: 1;
-    }
     .menu{
         background: #fff;
     }
@@ -698,7 +696,6 @@ body {
     }
     .menu-mobile{
         display: block;
-        z-index: 2;
     }
     
     .menu{
