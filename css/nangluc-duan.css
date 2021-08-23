@@ -1,114 +1,97 @@
+.fw-700 {
+    font-weight: 700;
+}
 
-/*css fonts sf pro*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
-body {
-    font-family: 'Roboto', sans-serif;   
-  }
-  a{
-      color:#000;
-  }
-  .fw-700{
-      font-weight: 700;
-  }
-  .fw-500{
-      font-weight: 500;
-  }
-  .fw-400{
-      font-weight: 400;
-  }
-  .fw-300{
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-300 {
     font-weight: 300;
 }
-  .fs-44{
-      font-size: 44px;
-  }
-  .fs-44{
+
+.fs-44 {
     font-size: 44px;
 }
-.fs-52{
-    font-size: 52px;
-}
-.fs-48{
-    font-size: 48px;
-}
-.fs-16{
-    font-size: 16px;
-}
-.fs-40{
-    font-size: 40px;
-}
-.fs-32{
-    font-size: 32px;
-}
-.fs-14{
-    font-size: 14px;
-}
-.fs-18{
-    font-size: 18px;
-}
-.fs-22{
-    font-size: 22px;
-}
-.fs-24{
-    font-size: 24px;
-}
-/*color start*/
-.text-orange{
-    color:#FC7900;
+
+.fs-44 {
+    font-size: 44px;
 }
 
-.text-FCB715{
+.fs-52 {
+    font-size: 52px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.block {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/*color start*/
+.text-orange {
+    color: #FC7900;
+}
+
+.text-FCB715 {
     color: #FCB715;
 }
+
 /*pd*/
-.pd-40{
+.pd-40 {
     padding-left: 40px;
 }
-.pd-84{
+
+.pd-84 {
     padding-left: 84px;
 }
 
 /*color end*/
 
 /* text-style start */
-.justify{
-    text-align:justify;
-}
-.menu{
-    height: 94px;
-}
-.nav-top,.nav-bottom{
-    width: 100%;
+.justify {
+    text-align: justify;
 }
 
-.nav-top ul{
-    display: flex;
-    float: right;
-    list-style: none;
-    margin-bottom: 12px;
-}
-.nav-top ul li a{
-    color: #787878;
-}
-.nav-bottom ul{
-    display: flex;
-    float: right;
-    list-style: none;
-    margin-bottom: 0px;
-}
-.nav{
-    margin-top: 15px;
-}
-.nav-top ul li,.nav-bottom ul li{
-    margin-left: 40px;
-}
-.hotline a{
-    color:#FC7900 !important;
-}
-.logo img{
-    margin-top: 28px;
-}
-.header{
+.header {
     height: 350px;
     background-position: center;
     background-repeat: no-repeat;
@@ -116,7 +99,8 @@ body {
     position: relative;
     z-index: -1;
 }
-.box-partner{
+
+.box-partner-update {
     width: 76%;
     text-align: center;
     position: absolute;
@@ -128,72 +112,78 @@ body {
     min-height: 100px;
     z-index: 2;
 }
-.p-content{
+
+.p-content {
     width: 100%;
     position: absolute;
     left: 50%;
-    top:50%;
+    top: 50%;
     transform: translate(-50%, -50%);
-    top:50%;
+    top: 50%;
     bottom: -231px;
 }
-.line-white{
+
+.line-white {
     height: 1px;
     width: 200px;
     background: #fff;
     position: absolute;
     left: 50%;
-    
+
     transform: translate(-50%, 0px);
 }
-.p-content h3, .p-content h2{
+
+.p-content h3,
+.p-content h2 {
     letter-spacing: 7px;
 }
-.p-content h2{
+
+.p-content h2 {
     margin-top: 20px;
 }
-.p-content p{
+
+.p-content p {
     font-size: 1.33vw;
 }
 
-.background-banner{
+.background-banner {
     height: 100%;
     background: #0E0800;
     opacity: 0.45;
 }
+
 /*=======du-an start======*/
-.du-an{
+.du-an-edit {
     padding-top: 200px;
     background-size: auto;
     background-repeat: no-repeat;
-    background-position-x:600px !important;
-    background-position-y:-159px !important;
+    background-position-x: 600px !important;
+    background-position-y: -159px !important;
     z-index: 2;
     position: relative;
-    top:-121px;
+    top: -121px;
 }
 
-.du-an .container .row:first-child{
+.du-an-edit .container .row:first-child {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.du-an .container .row:first-child p{
+.du-an-edit .container .row:first-child p {
     text-align: center;
     width: 100%;
 }
 
-.du-an .container .row:first-child .loc-dieu-kien{
-    width:50%;
+.du-an-edit .container .row:first-child .loc-dieu-kien {
+    width: 50%;
+
 }
 
-.du-an .container .row:first-child .loc-dieu-kien .item-filter{
-    
-}
+.du-an-edit .container .row:first-child .loc-dieu-kien .item-filter {}
 
-.du-an .container .row:first-child .loc-dieu-kien .item-filter select{
-    width:100%;
+.du-an-edit .container .row:first-child .loc-dieu-kien .item-filter select {
+    width: 100%;
     height: 57px;
     background: #FCB500;
     color: #fff;
@@ -203,109 +193,125 @@ body {
     font-weight: 700;
 }
 
-.du-an .container>.row:nth-child(2){
+.du-an-edit .container>.row:nth-child(2) {
     margin-top: 30px;
 }
-.du-an .container>.row:nth-child(2)>div{
+
+.du-an-edit .container>.row:nth-child(2)>div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.du-an .container>.row:nth-child(2)>div>img{
-   width: 100%;
+.du-an-edit .container>.row:nth-child(2)>div>img {
+    width: 100%;
 }
 
-.du-an .container>.row:nth-child(2)>div>p{
+.du-an-edit .container>.row:nth-child(2)>div>p {
     text-align: center;
     margin-top: 10px;
 }
-.modal-click{
+
+.modal-click {
     cursor: pointer;
 }
-.du-an .container>.row:nth-child(3){
+
+.du-an-edit .container>.row:nth-child(3) {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.du-an .container>.row:nth-child(3) ul{
+.du-an-edit .container>.row:nth-child(3) ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.du-an .container>.row:nth-child(3) ul li{
+.du-an-edit .container>.row:nth-child(3) ul li {
     padding-left: 10px;
     padding-right: 10px;
 }
-.du-an .container>.row:nth-child(3) p{
+
+.du-an-edit .container>.row:nth-child(3) p {
     color: #787878;
     width: 100%;
 }
-.du-an .container>.row:nth-child(3) .active{
-    text-decoration:underline;
+
+.du-an-edit .container>.row:nth-child(3) .active {
+    text-decoration: underline;
     color: #000000;
 }
+
 /*=====du-an end=======*/
 
-.footer{
+.footer {
     background-color: #002546;
     position: relative;
 }
-.footer-img-hoa{
+
+.footer-img-hoa {
     position: absolute;
     right: 0;
     bottom: 0px;
 }
-.doi-tac{
+
+.doi-tac {
     padding-top: 30px;
 }
-.doi-tac .container h3{
+
+.doi-tac .container h3 {
     text-align: center;
 }
-#slider-doi-tac .item{
+
+#slider-doi-tac .item {
     height: 150px;
     position: relative;
 }
-#slider-doi-tac .item img{
+
+#slider-doi-tac .item img {
     height: auto;
     width: 45% !important;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.doi-tac{
+.doi-tac {
     background-color: #FC7900;
 }
 
 /* Contact start */
-.contact{
+.contact {
     height: 335px;
     margin-top: 70px;
 }
-.contact-img{
+
+.contact-img {
     width: 100%;
 }
-.contact-content{
+
+.contact-content {
     padding-top: 65px;
 }
-.contact-content h4{
+
+.contact-content h4 {
     letter-spacing: 3px;
 }
 
-.contact-content p{
+.contact-content p {
     letter-spacing: 3px;
     font-size: 1.4vw;
 }
-.btn-submail{
+
+.btn-submail {
     margin-top: 30px;
 }
-.btn-submail input{
+
+.btn-submail input {
     border: none;
     background: #dedede;
     border-radius: 25px;
@@ -314,55 +320,48 @@ body {
     width: 290px;
     outline: none;
 }
-.btn-send{
+
+.btn-send {
     background: #494949;
     padding: 9px 25px 10px 25px;
     border-radius: 25px;
     margin-left: -82px;
     border: 1px solid #fca600;
 }
+
 /* Contact end */
 
 /*CSS modal start*/
-.modal-popup{
+.modal-popup {}
 
-}
+.modal-popup .container {}
 
-.modal-popup .container{
+.modal-popup .container .modal {}
 
-}
-
-.modal-popup .container .modal{
-}
-.modal-popup .container .modal .modal-dialog{
+.modal-popup .container .modal .modal-dialog {
     max-width: 83%;
 }
 
-.modal-popup .container .modal .modal-dialog .modal-content{
+.modal-popup .container .modal .modal-dialog .modal-content {}
 
-}
+.modal-popup .container .modal .modal-dialog .modal-content .left-content {}
 
-.modal-popup .container .modal .modal-dialog .modal-content .left-content{
-
-}
-
-.modal-popup .container .modal .modal-dialog .modal-content img{
+.modal-popup .container .modal .modal-dialog .modal-content img {
     width: 100%;
 }
 
-.modal-popup .container .modal .modal-dialog .modal-content .right-content{
+.modal-popup .container .modal .modal-dialog .modal-content .right-content {
     padding-right: 0px;
     position: relative;
 }
-.modal-popup .container .modal .modal-dialog
- .modal-content .btn-close{
+
+.modal-popup .container .modal .modal-dialog .modal-content .btn-close {
     position: absolute;
     right: 50px;
     top: 15px;
 }
 
-.modal-popup .container .modal .modal-dialog
- .modal-content .content-text{
+.modal-popup .container .modal .modal-dialog .modal-content .content-text {
     width: 83%;
     /* position: absolute;
     top: 54px;
@@ -370,64 +369,96 @@ body {
     margin-left: 40px;
     margin-top: 30px;
 }
-.modal-popup .container .modal .modal-dialog
- .modal-content .content-text div:first-child{
+
+.modal-popup .container .modal .modal-dialog .modal-content .content-text div:first-child h3{
+    text-align: center;
+}
+
+.modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(2) {
     text-align-last: center;
 }
-.modal-popup .container .modal .modal-dialog
- .modal-content .content-text div:nth-child(2){
-    text-align-last: center;
+
+.modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(3) p {
+    /* text-align-last: center; */
+    padding-left: 40px;
 }
+
+.modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(4) p {
+    /* text-align-last: center; */
+    padding-left: 40px;
+}
+.btn-close-moblie{
+    display: none;
+}
+.ul {
+    /* text-align-last: center; */
+    padding-left: 84px !important;
+}
+
 /*CSS modal end*/
-.mobile-view{
+.mobile-view {
     display: none;
 }
-.menu-mobile{
+
+.menu-mobile {
     display: none;
 }
-  @media (min-width: 1600px){
+
+@media (min-width: 1600px) {
+
     /* .container {
         max-width: 80%;
     } */
-    .linh-vuc{
+    .linh-vuc {
         background-position-x: 25%;
     }
-  }
-  @media only screen and (max-device-width: 590px){
-    .fs-24{
+}
+
+@media only screen and (max-device-width: 590px) {
+    .fs-24 {
         font-size: 16px;
     }
-    .fs-44{
+
+    .fs-44 {
         font-size: 28px;
     }
-    .fs-40{
+
+    .fs-40 {
         font-size: 30px;
     }
-    .fs-32{
+
+    .fs-32 {
         font-size: 22px;
     }
-    .fs-22{
+
+    .fs-22 {
         font-size: 18px;
     }
-    .nav{
+
+    .nav {
         display: none;
     }
-    .box-partner{
+
+    .box-partner {
         width: 100%;
         bottom: 50%;
     }
-    .tinituc-text{
+
+    .tinituc-text {
         width: 100%;
         padding: 0px 18px;
     }
-    #slider-tin-tuc .active.center{
+
+    #slider-tin-tuc .active.center {
         width: 230px !important;
     }
-    .btn-submail{
+
+    .btn-submail {
         position: absolute;
         left: 10px;
 
     }
+
     .btn-submail input {
         border: none;
         background: #dedede;
@@ -437,109 +468,137 @@ body {
         width: 300px;
         outline: none;
     }
-    .p-content{
-        width:  100%;
-    }
-    /*DAT*/
-    .p-content h3{
-        font-size:34px;
-    }
-    .p-content p{
-        font-size:18px;
+
+    .p-content {
+        width: 100%;
     }
 
-    
-    .lv-desc ul li{
+    /*DAT*/
+    .p-content h3 {
+        font-size: 34px;
+    }
+
+    .p-content p {
+        font-size: 18px;
+    }
+
+
+    .lv-desc ul li {
         font-size: 16px;
         line-height: 29px;
         padding-left: 0px;
     }
-    .btn-more{
+
+    .btn-more {
         position: absolute;
         z-index: 1;
         bottom: -200px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
-    .row{
+
+    .row {
         margin: 0px !important;
     }
-    .container{
+
+    .container {
         padding: 0px !important;
     }
-    .col, .col-12{
+
+    .col,
+    .col-12 {
         padding: 0px !important;
     }
-    
-    .mobile-view, .mobile-view .box-title-du-an{
+
+    .mobile-view,
+    .mobile-view .box-title-du-an {
         display: block;
-       
+
     }
+
     .mobile-view .btn-more {
         height: 100px;
     }
-    .mobile-view .btn-more{
+
+    .mobile-view .btn-more {
         position: relative;
         z-index: 1;
         bottom: -75px;
         margin: 0 auto;
     }
-    body{
+
+    body {
         /* background: #FCFCFC; */
     }
-    .menu{
+
+    .menu {
         background: #fff;
     }
-    .lv-img{
+
+    .lv-img {
         padding: 0px 15px;
     }
+
     .item-duan {
         height: 211px;
     }
+
     .btn-nav {
-        width: 94%;        
+        width: 94%;
     }
+
     .footer .container {
         padding: 0px 15px !important;
     }
+
     .contact {
         height: 326px;
         margin-top: 30px;
     }
-    .contact .row .col-6{
+
+    .contact .row .col-6 {
         padding: 0px !important;
     }
+
     .contact .row .col-6.contact-content {
         padding-top: 30px !important;
         position: inherit;
     }
-    .contact .row .col-6.contact-content h4{
+
+    .contact .row .col-6.contact-content h4 {
         font-size: 24px;
     }
-    .contact .row .col-6.contact-content p{
+
+    .contact .row .col-6.contact-content p {
         font-size: 16px;
     }
-    .contact .container{
+
+    .contact .container {
         padding: 0px 10px !important;
     }
-    .menu-mobile{
+
+    .menu-mobile {
         display: block;
+        z-index: 2;
     }
-    
-    .menu{
+
+    .menu {
         position: relative;
     }
-    .menu-icon{
+
+    .menu-icon {
         width: 35px;
-    position: absolute;
-    right: 0px;
-    top: 50%;
-    transform: translate(0%, -50%);
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0%, -50%);
     }
-    .menu-icon img{
+
+    .menu-icon img {
         width: 100%;
     }
-    .box-menu{
+
+    .box-menu {
         position: absolute;
         top: 94px;
         left: 0px;
@@ -548,28 +607,36 @@ body {
         border-top: 2px solid #fca600;
         padding: 30px 0px;
     }
-    .nav-top-mobile ul,.nav-bottom-mobile ul{
+
+    .nav-top-mobile ul,
+    .nav-bottom-mobile ul {
         padding: 0px;
         list-style: none;
         text-align: center;
         margin-bottom: 0px;
     }
-    .nav-top-mobile ul li,.nav-bottom-mobile ul li{
+
+    .nav-top-mobile ul li,
+    .nav-bottom-mobile ul li {
         padding: 5px;
         border-bottom: 1px solid #e5e5e5;
     }
-    .box-menu{
+
+    .box-menu {
         display: none;
     }
-    .menu-mobile.active .box-menu{
+
+    .menu-mobile.active .box-menu {
         display: block;
     }
+
     .logo img {
         margin-top: 28px;
         margin-left: 15px;
     }
+
     /*=======du-an start======*/
-    .du-an{
+    .du-an-edit {
         margin-top: 70px;
         padding-top: 100px;
         background-size: auto;
@@ -581,54 +648,53 @@ body {
         z-index: 1;
     }
 
-    .du-an .container .row:first-child{
+    .du-an-edit .container .row:first-child {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .du-an .container .row:first-child p{
+    .du-an-edit .container .row:first-child p {
         text-align: center;
         width: 100%;
     }
 
-    .du-an .container .row:first-child .loc-dieu-kien{
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .du-an-edit .container .row:first-child .loc-dieu-kien {
+        width: 100%;
     }
 
-    .du-an .container .row:first-child .loc-dieu-kien .item-filter{
-        
-    }
+    .du-an-edit .container .row:first-child .loc-dieu-kien .item-filter {}
 
-    .du-an .container .row:first-child .loc-dieu-kien .item-filter select{
-        width:100%;
+    
+
+    .du-an-edit .container .row:first-child .loc-dieu-kien .item-filter select {
+        width: 100%;
         height: 57px;
         color: #fff;
         border: 1px transparent solid;
-        text-align-last: left;
-        font-size: 16px;
+        text-align: initial;
+        font-size: 13px;
         font-weight: 700;
         padding: 10px;
         margin-top: 10px;
+        word-wrap: break-word !important;
     }
 
-    .du-an .container .row:first-child .loc-dieu-kien .item-filter select:last-child{
-        
+    .du-an-edit .container .row:first-child .loc-dieu-kien .item-filter select:last-child {
+
         margin-bottom: 10px;
     }
+
     /*=====du-an end=======*/
 
     /*set btn-email*/
-    .contact{
+    .contact {
         position: relative;
     }
-    .contact .container{
 
-    }
-    .contact .container .btn-submail{
+    .contact .container {}
+
+    .contact .container .btn-submail {
         bottom: 0px;
         width: 95%;
         position: absolute;
@@ -636,79 +702,205 @@ body {
         padding-top: 0px;
         margin-bottom: 30px;
     }
-    .contact .container .btn-submail input{
+
+    .contact .container .btn-submail input {
         width: 100%;
     }
-    .btn-send{
+
+    .btn-send {
         margin-left: -80px;
     }
+
+
+    .modal-popup .container .modal .modal-dialog {
+        max-width: 93%;
+    }
+
+    .block {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .modal-popup .container .modal .modal-dialog .content-modal-text {
+        margin-top: 50px;
+
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:first-child {
+        /* text-align-last: center; */
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(2) {
+        /* text-align-last: center; */
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(3) p {
+        /* text-align-last: center; */
+        padding-left: 0px;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(4) p {
+        /* text-align-last: center; */
+        padding-left: 0px;
+    }
+
+    .modal-popup .left-content{
+        margin-top: 50px;
+    }
+
+    .ul {
+        /* text-align-last: center; */
+        padding-left: 0px !important;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .btn-close {
+        position: absolute;
+        right: 17px;
+        top: -47px;
+        font-size: 30px;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .btn-close button {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .btn-close-moblie{
+        display: block;
+    }
+
+    .btn-close-desktop{
+        display: none;
+    }
 }
 
-@media only screen and (max-device-width: 575px){
-            .contact{
-                position: relative;
-                height: 400px;
-            }
-            .contact .container{
+@media only screen and (max-device-width: 575px) {
+    .contact {
+        position: relative;
+        height: 400px;
+    }
 
-            }
-            .contact .container .btn-submail{
-                bottom: 0px;
-                width: 90%;
-                position: absolute;
-                display: flex;
-                justify-content: center;
-                padding-top: 0px;
-                margin-bottom: 30px;
-            }
-            .contact .container .btn-submail input{
-                width: 92%;
-            }
+    .contact .container {}
+
+    .contact .container .btn-submail {
+        bottom: 0px;
+        width: 90%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .contact .container .btn-submail input {
+        width: 92%;
+    }
+
+    .modal-popup .container .modal .modal-dialog {
+        max-width: 93%;
+    }
+
+    .block {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .modal-popup .container .modal .modal-dialog .content-modal-text {
+        margin-top: 50px;
+
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text {
+        width: 100%;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:first-child {
+        /* text-align-last: center; */
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(2) {
+        /* text-align-last: center; */
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(3) p {
+        /* text-align-last: center; */
+        padding-left: 0px;
+    }
+
+    .modal-popup .container .modal .modal-dialog .modal-content .content-text div:nth-child(4) p {
+        /* text-align-last: center; */
+        padding-left: 0px;
+    }
+
+    .ul {
+        /* text-align-last: center; */
+        padding-left: 0px !important;
+    }
 }
-@media only screen and (max-device-width: 540px){
+
+@media only screen and (max-device-width: 540px) {
+
     /*set contact*/
-    .contact{
+    .contact {
         position: relative;
         background: #fff;
         padding-bottom: 300px;
     }
-    .contact .container{
-        
-    }
-    .contact .container .btn-submail{
+
+    .contact .container {}
+
+    .contact .container .btn-submail {
         bottom: 0px;
         width: 100%;
         position: absolute;
         display: flex;
         justify-content: center;
-       
+
     }
-    .contact .container .btn-submail input{
+
+    .contact .container .btn-submail input {
         width: 92%;
     }
+
     /*set font size cho banner*/
-    .p-content p{
-        font-size:13px;
-    }
-}
-@media only screen and (max-device-width: 380px){
-    /*set font size cho banner*/
-    .p-content p{
-        font-size:11px;
+    .p-content p {
+        font-size: 13px;
     }
 }
 
-@media only screen and (max-device-width: 375px){
+@media only screen and (max-device-width: 380px) {
+
+    /*set font size cho banner*/
+    .p-content p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-device-width: 375px) {
+
     /*set contact*/
-    .contact{
+    .contact {
         position: relative;
         background: #fff;
         padding-bottom: 300px;
     }
-    .contact .container{
-        
-    }
-    .contact .container .btn-submail{
+
+    .contact .container {}
+
+    .contact .container .btn-submail {
         bottom: 0px;
         width: 100%;
         position: absolute;
@@ -716,32 +908,34 @@ body {
         justify-content: center;
         margin-bottom: 30px;
     }
-    .contact .container .btn-submail input{
+
+    .contact .container .btn-submail input {
         width: 92%;
     }
 }
 
-@media only screen and (max-device-width: 300px){
+@media only screen and (max-device-width: 300px) {
+
     /*set font size cho banner*/
-    .p-content p{
-        font-size:9px;
+    .p-content p {
+        font-size: 9px;
     }
 
 
     /*set contact*/
-    .contact{
+    .contact {
         position: relative;
         background: #fff;
         padding-bottom: 300px;
     }
-    .contact .container{
-        
-    }
 
-    .contact .container>.row .contact-content p{
+    .contact .container {}
+
+    .contact .container>.row .contact-content p {
         font-size: 15px;
     }
-    .contact .container .btn-submail{
+
+    .contact .container .btn-submail {
         bottom: 0px;
         width: 100%;
         position: absolute;
@@ -749,7 +943,8 @@ body {
         justify-content: center;
         margin-bottom: 30px;
     }
-    .contact .container .btn-submail input{
+
+    .contact .container .btn-submail input {
         width: 92%;
     }
 }

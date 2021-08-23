@@ -1,8 +1,8 @@
 /*css fonts sf pro*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
 
 body {
-    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
 }
 
 a {
@@ -75,6 +75,7 @@ a {
 
 .menu {
     height: 94px;
+    background-color: #fff;
 }
 
 .nav-top,
@@ -127,7 +128,7 @@ a {
     width: 100%;
 }
 
-.box-partner {
+.box-partner-new {
     width: 76%;
     text-align: center;
     position: absolute;
@@ -194,7 +195,7 @@ a {
 
 /*==img-background-tin-tuc end*/
 /*=======tin-tuc start======*/
-.tin-tuc {
+.tin-tuc-new {
     /* padding-top: 300px;
     background-size: auto;
     background-repeat: no-repeat;
@@ -206,32 +207,32 @@ a {
     margin-top: -96vh;
 }
 
-.tin-tuc .container {}
+.tin-tuc-new .container {}
 
-.tin-tuc .container>.row:first-child {}
+.tin-tuc-new .container>.row:first-child {}
 
-.tin-tuc .container>.row:first-child div {
+.tin-tuc-new .container>.row:first-child div {
     display: flex;
 }
 
-.tin-tuc .container>.row:first-child a {
+.tin-tuc-new .container>.row:first-child a {
     color: #C90000;
 
 }
 
 
-.tin-tuc .container .row:nth-child(2) {}
+.tin-tuc-new .container .row:nth-child(2) {}
 
-.tin-tuc .container .row:nth-child(2) {}
+.tin-tuc-new .container .row:nth-child(2) {}
 
-.tin-tuc .container>.row:nth-child(2) {}
+.tin-tuc-new .container>.row:nth-child(2) {}
 
-.tin-tuc .container>.row:nth-child(2) {}
+.tin-tuc-new .container>.row:nth-child(2) {}
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left {}
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-left {}
 
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-left div {
     background: #ECE3D0;
     height: 100%;
     width: 100%;
@@ -240,40 +241,40 @@ a {
     align-items: center;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div img {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-left div img {
     width: 90%;
     margin-top: 20px;
     z-index: 3;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div ul {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-left div ul {
     list-style: none;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div ul li {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-left div ul li {
     margin-left: -14px;
     margin-top: 13px;
     width: 90%;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right {}
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right {}
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right {}
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right {}
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right {
     height: 100%;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right img {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right img {
     width: 100%;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right ul {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right ul {
     list-style: none;
     padding-top: 20px;
 }
 
-.tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right ul li {
+.tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right ul li {
     margin-left: -39px;
 }
 
@@ -282,16 +283,16 @@ a {
     height: 151px;
 }  */
 
-.tin-tuc .container .row:nth-child(2) ul {
+.tin-tuc-new .container .row:nth-child(2) ul {
     list-style: none;
     margin-top: 20px;
 }
 
-.tin-tuc .container .row:nth-child(2) ul li {
+.tin-tuc-new .container .row:nth-child(2) ul li {
     margin-left: -37px;
 }
 
-.tin-tuc .container>.row:nth-child(3) {
+.tin-tuc-new .container>.row:nth-child(3) {
     width: 100%;
     display: flex;
     align-items: center;
@@ -299,24 +300,24 @@ a {
     margin-top: 30px;
 }
 
-.tin-tuc .container>.row:nth-child(3) ul {
+.tin-tuc-new .container>.row:nth-child(3) ul {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.tin-tuc .container>.row:nth-child(3) ul li {
+.tin-tuc-new .container>.row:nth-child(3) ul li {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.tin-tuc .container>.row:nth-child(3) p {
+.tin-tuc-new .container>.row:nth-child(3) p {
     color: #787878;
     width: 100%;
 }
 
-.tin-tuc .container>.row:nth-child(3) .active {
+.tin-tuc-new .container>.row:nth-child(3) .active {
     text-decoration: underline;
     color: #000000;
 }
@@ -524,7 +525,7 @@ a {
         display: none;
     }
 
-    .box-partner {
+    .box-partner-new {
         width: 100%;
         bottom: 50%;
     }
@@ -581,18 +582,18 @@ a {
         transform: translate(-50%, -50%);
     }
 
-    .row {
+    /* .row {
         margin: 0px !important;
-    }
+    } */
 
     .container {
         padding: 0px !important;
     }
 
-    .col,
+    /* .col,
     .col-12 {
         padding: 0px !important;
-    }
+    } */
 
     .mobile-view,
     .mobile-view .box-title-du-an {
@@ -718,67 +719,14 @@ a {
         margin-left: 15px;
     }
 
-    /*=======tin-tuc start======*/
-    .tin-tuc .container {}
+    
 
-    .tin-tuc .container>.row:first-child {}
-
-    .tin-tuc .container>.row:first-child .col-sm-4 {
-        /* position: relative; */
-    }
-
-    .tin-tuc .container>.row:first-child .col-sm-4 a {
-        /* color: #FC7900;
-        position: absolute;
-        bottom: 10px;
-        right: 0px; */
-    }
-
-    .tin-tuc .container>.row:nth-child(2) {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        align-items: center;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left {}
-
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div {
-        background: #ECE3D0;
-        height: 100%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div img {
-        width: 90%;
-        margin-top: 20px;
-        z-index: 3;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div ul {
-        list-style: none;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-left div ul li {
-        margin-left: -14px;
-        margin-top: 13px;
-        width: 90%;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right {
-        width: 100%;
-    }
-
-    .tin-tuc .container>.row:nth-child(2) .tin-tuc-content-right .row {
+    /* .tin-tuc-new .container>.row:nth-child(2) .tin-tuc-content-right .row {
         display: flex;
         flex-direction: column;
         width: 100%;
         background: #ECE3D0;
-    }
+    } */
 
     /*=====du-an end=======*/
 
@@ -807,6 +755,10 @@ a {
     }
 }
 
+@media only screen and (min-device-width: 575px){
+
+}
+
 @media only screen and (max-device-width: 575px) {
     .contact {
         position: relative;
@@ -824,18 +776,22 @@ a {
         padding-top: 0px;
         margin-bottom: 30px;
     }
+    /* .content-text1{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    } */
 
     .contact .container .btn-submail input {
         width: 92%;
     }
 
-    .tin-tuc .container>.row:first-child div {}
+    .tin-tuc-new .container>.row:first-child div {}
 
-    .tin-tuc .container>.row:first-child p {
+    .tin-tuc-new .container>.row:first-child p {
         font-size: 25px;
     }
 
-    .tin-tuc .container>.row:first-child a {
+    .tin-tuc-new .container>.row:first-child a {
         font-size: 25px;
     }
 }
@@ -870,26 +826,26 @@ a {
     }
 
      /*set font size cho tin-tuc*/
-     .tin-tuc .container>.row:first-child div{
+     .tin-tuc-new .container>.row:first-child div{
        
     }
-    .tin-tuc .container>.row:first-child p{
+    .tin-tuc-new .container>.row:first-child p{
         font-size: 15px;
     }
-    .tin-tuc .container>.row:first-child a{
+    .tin-tuc-new .container>.row:first-child a{
         font-size: 15px;
     }
 }
 
 @media only screen and (max-device-width: 400px) {
      /*set font size cho tin-tuc*/
-     .tin-tuc .container>.row:first-child div{
+     .tin-tuc-new .container>.row:first-child div{
        
     }
-    .tin-tuc .container>.row:first-child p{
+    .tin-tuc-new .container>.row:first-child p{
         font-size: 15px;
     }
-    .tin-tuc .container>.row:first-child a{
+    .tin-tuc-new .container>.row:first-child a{
         font-size: 15px;
     }
 }

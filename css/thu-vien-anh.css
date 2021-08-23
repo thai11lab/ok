@@ -1,9 +1,10 @@
 
 /*css fonts sf pro*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
 body {
-    font-family: 'Roboto', sans-serif;   
     background-color: #F1F1F1; 
+  }
+  .menu{
+      background-color: #fff;
   }
   a{
       color:#000;
@@ -69,7 +70,7 @@ body {
 }
 .menu{
     height: 94px;
-    background-color: #fff;
+    background-color: #fff !important;
 }
 .nav-top,.nav-bottom{
     width: 100%;
@@ -111,7 +112,7 @@ body {
     z-index: -1;
     width: 100%;
 }
-.box-partner{
+.box-partner-new{
     width: 76%;
     text-align: center;
     position: absolute;
@@ -232,6 +233,9 @@ body {
     background-color: #FCA600;
 }
 
+.combo-box{
+    display: none;
+}
 .footer{
     background-color: #002546;
     position: relative;
@@ -465,7 +469,7 @@ body {
     .nav{
         display: none;
     }
-    .box-partner{
+    .box-partner-new{
         width: 100%;
         bottom: 50%;
     }
@@ -655,6 +659,8 @@ body {
             top: 0px;
             left: 0px;
     } 
+
+    
     /*=====content-hoat-dong end=======*/
 
     /*set btn-email*/
@@ -678,6 +684,100 @@ body {
     .btn-send{
         margin-left: -80px;
     }
+
+    /*CSS modal start*/
+.modal-popup{
+
+}
+
+.modal-popup .container{
+
+}
+
+.modal-popup .container .modal{
+}
+.modal-popup .container .modal .modal-dialog{
+    max-width: 95%;
+}
+
+.modal-popup .container .modal .modal-dialog .modal-content{
+
+}
+
+.modal-popup .container .modal .modal-dialog .modal-content>.row{
+    height: 574px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}   
+
+.modal-popup .container .modal .modal-dialog .modal-content .left-content{
+
+}
+
+.modal-popup .container .modal .modal-dialog .modal-content img{
+    width: 100%;
+}
+
+.modal-popup .container .modal .modal-dialog .modal-content .right-content{
+    padding-right: 0px;
+    position: relative;
+}
+.modal-popup .container .modal .modal-dialog
+ .modal-content .btn-close{
+    position: absolute;
+    right: 19px;
+    top: 5px;
+}
+
+.modal-popup .container .modal .modal-dialog
+ .modal-content .btn-close button{
+    font-size: 50px;
+}
+.modal-popup .container .modal .modal-dialog
+ .modal-content .content-text{
+    width: 83%;
+    /* position: absolute;
+    top: 54px;
+    left: 68px; */
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.modal-popup .container .modal .modal-dialog
+ .modal-content .content-text div:first-child{
+    text-align-last: center;
+}
+.modal-popup .container .modal .modal-dialog
+ .modal-content .content-text div:nth-child(2){
+    text-align-last: center;
+}
+.menu-hoatdong{
+    display: none;
+}
+.combo-box{
+    display: block;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    position: relative;
+}
+.combo-box select{
+    background-repeat: no-repeat;
+    width: 80%;
+    border: 1px transparent solid;
+    border-bottom: 3px #FCA600 solid;
+    background-position-y: 10px;
+    background-position-x: 10px;
+    width: 80%;
+    border: 1px transparent solid;
+    border-bottom: 3px #FCA600 solid;
+    padding-left: 30px;
+}
+
+.combo-box select{
+   
+}
+/*CSS modal end*/
 }
 
 @media only screen and (max-device-width: 575px){
